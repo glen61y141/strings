@@ -1,0 +1,13 @@
+# Usage: astyle -n --project ./*.c,*.h
+# Remove -n parameter to keep backup file with .orig suffix if preferred
+--style=allman 
+--indent=force-tab=4 
+--indent-cases
+--indent-preproc-cond
+--add-braces
+--pad-oper
+--pad-header
+--unpad-paren
+--lineend=linux
+--min-conditional-indent=0
+-r
